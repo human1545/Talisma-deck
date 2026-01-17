@@ -1,0 +1,11 @@
+[
+    {
+      "type": "mod_info",
+      "id": "TalismaDeck",
+      "name": "Talisma Deck",
+      "authors": ["human1545"],
+      "description": "deck para talismans",
+      "category": "content",
+      "dependencies": ["bn","arcana"]
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+    "id": "TalismaDeck",
+    "type": "ARMOR",
+    "name": { "str": "Talisma Deck"},
+    "description": "A small fabric talisma deck in the wrist",
+    "weight": "30 g",
+    "volume": "100 ml",
+    "price": "100 USD",
+    "price_postapoc": "100 USD",
+    "to_hit": 1,
+    "bashing": 1,
+    "material": [ "cotton", "copper" ],
+    "symbol": "[",
+    "looks_like": "leather_pouch",
+    "color": "light_red",
+    "covers": [ "arms"],
+    "coverage": 3, 
+    "rigid": false,
+    "encumbrance": 0,
+    "max_encumbrance": 3,
+    "storage": "50 L",
+    "material_thickness": 1,
+    "weight_capacity_modifier": "3",
+     "use_action": {
+      "type": "holster",
+      "holster_prompt": "COMESTIBLE",
+      "ategory": "other",
+      "holster_msg": "You store your %s",
+      "multi": 4,
+      "min_volume": "1 ml",
+      "max_volume": "5 L",
+      "draw_cost": 0,
+      "flags":["magic_focus"]
+     },
+    "flags": [ "WAIST", "COMPACT", "OVERSIZE", "NO_SALVAGE"]
+    }   
+]
